@@ -22,7 +22,7 @@ namespace WebApplication1.Controllers
         {
             var teacher = teacherService.GetById(id);
             return Ok(teacher);
-
+            // Bu yerdagi bug  to'g'irlandi
         }
 
         [HttpPost]
