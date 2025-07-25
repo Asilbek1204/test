@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-Console.WriteLine("----->Connection string:" + connectionString);
+
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 //sql server connection string
 builder.Services.AddDbContext<AppDbContext>(options =>
