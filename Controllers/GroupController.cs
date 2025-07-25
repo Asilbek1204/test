@@ -45,7 +45,6 @@ namespace WebApplication1.Controllers
         {
             groupService.Delete(id);
             return NoContent();
-
         }
         
     } 
